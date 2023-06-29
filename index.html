@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Fight</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabeçalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">Dojo Fight</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegaçao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegaçao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-dojo" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Dojo
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#nossas-modalidades" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Nossas modalidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabeçalho">
+        <section id="sobre-o-dojo">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="testa" src="artes-marciais.jpg" alt="">
+                    </div>
+                    <div class="testa-pai carousel-item" data-bs-interval="3000">
+                        <img class="testa" src="./photo-1623517948841-ec5830154eff.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="testa" src="karate-3961086_1920.webp" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img class="tatame" src="./Dojo.jpg" class="d-block w-100 rounded"
+                                alt="foto parte irterna do Dojo">
+                        </div>
+                        <div class="col-md-7 pt-7">
+                            <h2>sobre o Dojo</h2>
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta, quod iusto! Tenetur
+                                veritatis vero quia asperiores consequuntur, voluptatum, modi laudantium quos sequi odit
+                                repudiandae, voluptas alias iste aspernatur eligendi! Minima.
+                            </p>
+                            <h3>sobre o espaço</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nemo quia impedit totam
+                                dolor placeat eaque libero ea veritatis praesentium iure quod tempore sit, sunt id
+                                perspiciatis hic, nesciunt repellat!
+                            </p>
+                            <ul>
+                                <li>item 1</li>
+                                <li>item 2</li>
+                                <li>item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row text-center">
+                    <h2>Apresentações e palestras</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./mestre.jpg" alt="Sensei" class="mb-2">
+                        <h3>
+                            <i class="bi bi-calendar-date"></i>
+                            Palestra mestre wu-chu
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus corrupti
+                            provident perspiciatis harum facilis cumque tempore nisi amet animi accusantium, quibusdam,
+                            a, ut delectus explicabo sequi commodi nostrum? Accusantium?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./mestre 2.jpg" alt="Sensei" class="mb-2">
+                        <h3>
+                            <i class="bi bi-calendar-date"></i>
+                            Palestra mestre kung-fu
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus corrupti
+                            provident perspiciatis harum facilis cumque tempore nisi amet animi accusantium, quibusdam,
+                            a, ut delectus explicabo sequi commodi nostrum? Accusantium?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./mestre.jpg" alt="Sensei" class="mb-2">
+                        <h3>
+                            <i class="bi bi-calendar-date"></i>
+                            Palestra mestre karate
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur natus corrupti
+                            provident perspiciatis harum facilis cumque tempore nisi amet animi accusantium, quibusdam,
+                            a, ut delectus explicabo sequi commodi nostrum? Accusantium?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossas-modalidades">
+            <div class="row text-center">
+                <h2 class="mb-5">Nossas modalidades</h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-modalidades nav-pills flex-column ">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#kung-fu"
+                            class="fw-bold text-start nav-link active">kung-fu</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#karate"
+                            class="fw-bold text-start nav-link">karatê</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#wu-chu"
+                            class="fw-bold text-start nav-link">wu-chu</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#judo"
+                            class="fw-bold text-start nav-link">judô</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#jiu-jtsu"
+                            class="fw-bold text-start nav-link">jiu-jtsu</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="kung-fu">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="karate 3.jpg" alt="">
+                                    <h5>Kung-fu</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi
+                                        aspernatur consequuntur temporibus dicta
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="karate">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="karate 3.jpg" alt="">
+                                    <h5>Karate</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi
+                                        aspernatur consequuntur temporibus dicta
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="wu-chu">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="karate 3.jpg" alt="">
+                                    <h5>Wu-chu</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi
+                                        aspernatur consequuntur temporibus dicta
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="judo">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="karate 3.jpg" alt="">
+                                    <h5>Judo</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi
+                                        aspernatur consequuntur temporibus dicta
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="jiu-jtsu">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="karate 3.jpg" alt="">
+                                    <h5>jiu-jtsu</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere commodi
+                                        aspernatur consequuntur temporibus dicta
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="fale-conosco">
+            <div class="container">
+                <div class="row text-center">
+                    <h2 class="mb-5">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form class="mb-4">
+                            <div class="mb-3">
+                                <label for="nome fw-bold">Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email fw-bold">Email</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="telefone fw-bold">Telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+
+                            <div>
+                                <label for="mensagem fw-bold">Sua mensagem</label>
+                                <input type="text" id="mensagem" class="form-control" required>
+                            </div>
+                            <button class="btn btn-secondary mt-4">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-a">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="fs-4">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua da luta nº123, Dojo fight - Curitiba - PR
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
